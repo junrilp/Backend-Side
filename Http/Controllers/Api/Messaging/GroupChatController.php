@@ -31,7 +31,7 @@ class GroupChatController extends Controller
      * Send a new message to the group chat
      *
      * @return $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function send(ChatRequest $request, Conversation $conversation)
     {
@@ -144,7 +144,7 @@ class GroupChatController extends Controller
      *
      * @param Conversation $conversation
      * @return void
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Conversation $conversation)
     {
@@ -165,7 +165,7 @@ class GroupChatController extends Controller
      * @param Conversation $conversation
      *
      * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function chats(Conversation $conversation)
     {

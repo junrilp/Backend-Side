@@ -12,7 +12,7 @@ interface GroupInterface
     /**
      * @return Builder
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function query(): Builder;
 
@@ -21,7 +21,7 @@ interface GroupInterface
      * @param array $options
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function search(string $keywords = null, array $options = []): LengthAwarePaginator;
 
@@ -30,7 +30,7 @@ interface GroupInterface
      * @param int $userId
      * @return Group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function create(array $requestData, int $userId): Group;
 
@@ -40,7 +40,7 @@ interface GroupInterface
      * @param array $options
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function searchUserGroups(int $userId, string $keywords = null, array $options = []): LengthAwarePaginator;
 
@@ -49,7 +49,7 @@ interface GroupInterface
      * @param int $perPage
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getRelatedGroups(Group $group, int $perPage = 6): LengthAwarePaginator;
 
@@ -59,7 +59,7 @@ interface GroupInterface
      * @param string $action
      * @return Group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function changePublishStatusGroup(Group $group, string $action = 'toggle'): Group;
 
@@ -70,7 +70,7 @@ interface GroupInterface
      * @param array $options
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function searchGroupMembers(Group $group, string $keywords = null, array $options = []): LengthAwarePaginator;
 
@@ -80,7 +80,7 @@ interface GroupInterface
      * @param array $options
      * @return mixed
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getNonMemberUsers(Group $group, string $keywords = null, array $options = []);
 
@@ -90,7 +90,7 @@ interface GroupInterface
      * @param array $options
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getMemberInvites(Group $group, string $keywords = null, array $options = []): LengthAwarePaginator;
 
@@ -99,7 +99,7 @@ interface GroupInterface
      * @param bool $deleteInvite
      * @return GroupMemberInvite
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userAcceptGroupInvite(int $groupMemberInviteId, bool $deleteInvite = false): GroupMemberInvite;
 
@@ -108,7 +108,7 @@ interface GroupInterface
      * @param bool $deleteInvite
      * @return GroupMemberInvite
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userRejectGroupInvite(int $groupMemberInviteId, bool $deleteInvite = false): GroupMemberInvite;
 
@@ -116,7 +116,7 @@ interface GroupInterface
      * @param int $userId
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserGroupPendingInvites(int $userId): LengthAwarePaginator;
 
@@ -130,7 +130,7 @@ interface GroupInterface
      * @param int $userId
      * @return array
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserGroupStatistics(int $userId): array;
 }

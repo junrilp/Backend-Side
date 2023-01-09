@@ -108,7 +108,7 @@ class GroupRepository implements GroupInterface
      * @param $image
      *
      * @return Group
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function attachMedia(Group $group, $image): Group
     {
@@ -130,7 +130,7 @@ class GroupRepository implements GroupInterface
      * @param array $tags
      * @return Group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function addTags(Group $group, array $tags): Group
     {
@@ -165,7 +165,7 @@ class GroupRepository implements GroupInterface
      * @param $modelOrId
      * @return Group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function delete($modelOrId): Group
     {
@@ -308,7 +308,7 @@ class GroupRepository implements GroupInterface
      * @param null $default
      * @return mixed
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function getSearchParameter(string $key, array $options = [], $default = null)
     {
@@ -325,7 +325,7 @@ class GroupRepository implements GroupInterface
     /**
      * @param Builder|QueryBuilder $query
      * @param array $options
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function applyCommonSearchParameters($query, array $options = [])
     {
@@ -349,7 +349,7 @@ class GroupRepository implements GroupInterface
     /**
      * @return Collection
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getTypeOptions(): Collection
     {
@@ -367,7 +367,7 @@ class GroupRepository implements GroupInterface
     /**
      * @return Collection
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getCategoryOptions(): Collection
     {
@@ -536,7 +536,7 @@ class GroupRepository implements GroupInterface
      * @param array $userIds
      * @return object
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function generateGroupMemberInvites(Group $group, array $userIds): object
     {
@@ -568,7 +568,7 @@ class GroupRepository implements GroupInterface
      * @param int $userId
      * @return GroupMemberInvite
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function inviteMemberToGroup(Group $group, int $userId): GroupMemberInvite
     {
@@ -596,7 +596,7 @@ class GroupRepository implements GroupInterface
      * @param int $userId
      * @param Group $group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function leaveUserFromGroup(int $userId, Group $group)
     {
@@ -643,7 +643,7 @@ class GroupRepository implements GroupInterface
      * @param Group $group
      *
      * @return bool
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function joinUserToGroup(int $userId, Group $group): bool
     {
@@ -668,7 +668,7 @@ class GroupRepository implements GroupInterface
     /**
      * @param Group $group
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateGroupMembers(Group $group)
     {
@@ -748,7 +748,7 @@ class GroupRepository implements GroupInterface
      * @param int $userId
      * @return LengthAwarePaginator
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserUnreadNotifications(int $userId): LengthAwarePaginator
     {

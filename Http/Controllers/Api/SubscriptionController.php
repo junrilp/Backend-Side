@@ -42,7 +42,7 @@ class SubscriptionController extends Controller
     /**
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function freeUpgrade()
     {

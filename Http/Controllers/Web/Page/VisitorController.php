@@ -28,7 +28,7 @@ class VisitorController extends PerfectFriendController
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
 
     public function wall()
@@ -40,7 +40,7 @@ class VisitorController extends PerfectFriendController
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
 
     public function profile(string $username)
@@ -62,7 +62,7 @@ class VisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function events(): Response
     {
@@ -74,7 +74,7 @@ class VisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function attendingEvents(): Response
     {

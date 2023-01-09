@@ -6,7 +6,7 @@ use Illuminate\Foundation\Http\FormRequest;
 /**
  * Request validation for password
  *
- * @author Angelito Tan <angelito.t@ragingriverict.com>
+ * @author Junril Pateño <junril090693@gmail.com>
  */
 class ResetPasswordRequest extends FormRequest
 {
@@ -14,7 +14,7 @@ class ResetPasswordRequest extends FormRequest
      * Determine if the user is authorized to make this request.
      *
      * @return bool
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function authorize()
     {
@@ -25,7 +25,7 @@ class ResetPasswordRequest extends FormRequest
      * Get the validation rules that apply to the request.
      *
      * @return array
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function rules()
     {
@@ -38,7 +38,7 @@ class ResetPasswordRequest extends FormRequest
      * Get the validation messages that apply to the rules.
      *
      * @return array
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function messages()
     {

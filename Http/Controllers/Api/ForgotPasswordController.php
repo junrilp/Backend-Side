@@ -25,7 +25,7 @@ class ForgotPasswordController extends Controller
      *
      * @param  PasswordChangeRequest $request
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function passwordChange(PasswordChangeRequest $request)
     {
@@ -54,7 +54,7 @@ class ForgotPasswordController extends Controller
      *
      * @param  ResetPasswordRequest $request
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function resetPassword(ResetPasswordRequest $request)
     {

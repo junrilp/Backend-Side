@@ -61,7 +61,7 @@ class UserEventController extends Controller
 
             /*
             * Send a notification to owner of the events that a new user joined the event
-            * @author Angelito Tan
+            * @author Junril Pateño <junril090693@gmail.com>
             */
             Notification::send(
                 $event->host,
@@ -199,7 +199,7 @@ class UserEventController extends Controller
      * @param User $user
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserEvents(Request $request, User $user)
     {

@@ -65,7 +65,7 @@ class UserController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory AdminUserSummaryDetailResource $users
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(Request $request)
     {
@@ -87,7 +87,7 @@ class UserController extends Controller
      * @param mixed $id
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory AdminUserCompleteDetailResource $user
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show($id)
     {

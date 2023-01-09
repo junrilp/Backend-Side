@@ -22,7 +22,7 @@ class UserSettingController extends Controller
      *
      * @param Request $request
      * @return App\Traits\ApiResponser::successResponse
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userUpdateAccountSettings(Request $request){
         $userId = Auth::user()->id;
@@ -44,7 +44,7 @@ class UserSettingController extends Controller
      *
      * @param Request $request
      * @return App\Traits\ApiResponser::successResponse
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function dontShowAgain(Request $request){
         $userId = Auth::user()->id;
@@ -60,7 +60,7 @@ class UserSettingController extends Controller
      * Will retrieve user account settings
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserAccountSettings(){
         $userId = Auth::user()->id;
@@ -72,7 +72,7 @@ class UserSettingController extends Controller
      * Will retrieve the available landing page as default page
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getLandingPageEnums(){
         $data = DefaultPageType::map();

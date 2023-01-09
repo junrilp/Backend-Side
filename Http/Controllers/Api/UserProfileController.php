@@ -20,7 +20,7 @@ class UserProfileController extends Controller
      * Display a listing of the resource.
      * @param User $user
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(User $user)
     {
@@ -58,7 +58,7 @@ class UserProfileController extends Controller
      * @param  int  $id
      * @param EditProfileRequest $request
      * @return \Illuminate\Http\Response
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show($id, Request $request)
     {

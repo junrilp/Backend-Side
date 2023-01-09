@@ -26,7 +26,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index($slug1 = null, $slug2 = null, Request $request)
     {

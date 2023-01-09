@@ -12,7 +12,7 @@ interface ConversationInterface
      * @param int $senderId
      * @return Conversation
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getOrCreateForUser(int $userId, int $senderId): Conversation;
 }

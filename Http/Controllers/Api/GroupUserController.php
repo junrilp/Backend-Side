@@ -39,7 +39,7 @@ class GroupUserController extends Controller
      * @param GroupMemberInvite $groupInvite
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function acceptGroupInvite(GroupInviteeAuthorizedRequest $request, GroupMemberInvite $groupInvite)
     {
@@ -63,7 +63,7 @@ class GroupUserController extends Controller
      * @param GroupMemberInvite $groupInvite
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function rejectGroupInvite(GroupInviteeAuthorizedRequest $request, GroupMemberInvite $groupInvite)
     {
@@ -86,7 +86,7 @@ class GroupUserController extends Controller
     /**
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userGroupPendingInvites(Request $request)
     {
@@ -102,7 +102,7 @@ class GroupUserController extends Controller
     /**
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userGroupStatistics()
     {
@@ -114,7 +114,7 @@ class GroupUserController extends Controller
      * @param Request $request
      * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\Http\Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function groupUserNotifications(Request $request)
     {

@@ -14,7 +14,7 @@ class UserSearchResource2 extends JsonResource
      *
      * @param  \Illuminate\Http\Request  $request
      * @return array
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function toArray($request)
     {

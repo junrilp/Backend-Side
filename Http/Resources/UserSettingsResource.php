@@ -12,7 +12,7 @@ class UserSettingsResource extends JsonResource
      *
      * @param  \Illuminate\Http\Request  $request
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function toArray($request)
     {
@@ -32,7 +32,7 @@ class UserSettingsResource extends JsonResource
      * Get default page base on the current user settings
      *
      * @return string
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getDefaultPage($page){
         $enums = collect(DefaultPageType::map())

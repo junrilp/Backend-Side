@@ -17,7 +17,7 @@ class SearchRepository implements SearchInterface
      * @param null $searchMethod
      *
      * @return string
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function filter($searchArray, $friendIds = [], $searchMethod = null)
     {
@@ -115,7 +115,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $to
      * @param mixed $fieldName
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchFilterRange($searchMethod, $from, $to, $fieldName)
     {
@@ -142,7 +142,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $distance
      * @param mixed $fieldName
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchGeo($searchMethod, $lat, $lng, $distance, $fieldName)
     {
@@ -161,7 +161,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $searchVar
      * @param mixed $fieldName
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchFilterArray($searchMethod, $searchVar, $fieldName)
     {
@@ -183,7 +183,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $searchVar
      * @param mixed $fieldName
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchFilter($searchMethod, $searchVar, $fieldName)
     {
@@ -209,7 +209,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $searchVar
      * @param mixed $fieldName
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchInfluencer($searchMethod, $searchVar, $fieldName)
     {
@@ -228,7 +228,7 @@ class SearchRepository implements SearchInterface
      * @param mixed $filterArray
      * @param mixed $field
      *
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function arrayToFilter($searchMethod, $filterArray, $field)
     {

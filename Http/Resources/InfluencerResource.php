@@ -12,7 +12,7 @@ class InfluencerResource extends JsonResource
      *
      * @param  \Illuminate\Http\Request $request
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function toArray($request)
     {

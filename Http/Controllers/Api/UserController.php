@@ -473,7 +473,7 @@ class UserController extends Controller
 
     /**
      * Add user device id
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function addUserDeviceId(UserDeviceRequest $request) {
         try{
@@ -490,7 +490,7 @@ class UserController extends Controller
 
     /**
      * Remove user device Id
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function removeUserDeviceId(UserDeviceRequest $request){
         try{
@@ -506,7 +506,7 @@ class UserController extends Controller
 
     /**
      * Remove all user device id
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function removeUserAllDeviceId(){
         try{

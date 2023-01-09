@@ -21,7 +21,7 @@ class QrCodeController extends Controller
      *
      * @return mixed
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function handle(Request $request, string $code)
     {

@@ -194,7 +194,7 @@ class UserRepository implements UserInterface
      * @param string $updateUserEmailToken
      *
      * @return User|null
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getUserByChangeEmailToken(string $updateUserEmailToken): ?User
     {
@@ -211,7 +211,7 @@ class UserRepository implements UserInterface
      * @return User
      *
      * @throws \Exception
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateUserEmail(User $user, string $email): User
     {
@@ -264,7 +264,7 @@ class UserRepository implements UserInterface
      * 
      * @return int
      * 
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function verifyEmailUsername($emailUsername): int
     {

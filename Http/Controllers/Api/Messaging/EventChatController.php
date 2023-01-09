@@ -37,7 +37,7 @@ class EventChatController extends Controller
      * Send a new message to the event chat
      *
      * @return $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function send(ChatRequest $request, Conversation $conversation)
     {
@@ -144,7 +144,7 @@ class EventChatController extends Controller
      *
      * @param Conversation $conversation
      * @return void
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Conversation $conversation)
     {
@@ -165,7 +165,7 @@ class EventChatController extends Controller
      * @param Conversation $conversation
      *
      * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function chats(Conversation $conversation)
     {
@@ -197,7 +197,7 @@ class EventChatController extends Controller
      * If user is not a member of the event this will be use to communicate to the admin and the user
      *
      * @return $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendInquiry(Request $request, Conversation $conversation)
     {

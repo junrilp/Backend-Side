@@ -73,7 +73,7 @@ class InvitationRepository implements InvitationInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function invitePastEvents(array $request, $source)
     {
@@ -127,7 +127,7 @@ class InvitationRepository implements InvitationInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function inviteFriends(array $friendIds, $resource, int $userId)
     {
@@ -220,7 +220,7 @@ class InvitationRepository implements InvitationInterface
      * @param array $pastEventIds
      *
      * @return null
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected static function insertInviteEmail($source, array $pastEventIds)
     {
@@ -242,7 +242,7 @@ class InvitationRepository implements InvitationInterface
      * @param Event $event
      *
      * @return null
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function sendInvite($source)
     {
@@ -337,7 +337,7 @@ class InvitationRepository implements InvitationInterface
      * @param array $userIds
      * @return object
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function generateGroupMemberInvites(Group $group, array $userIds): object
     {
@@ -369,7 +369,7 @@ class InvitationRepository implements InvitationInterface
      * @param int $userId
      * @return GroupMemberInvite
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function inviteMemberToGroup(Group $group, int $userId): GroupMemberInvite
     {

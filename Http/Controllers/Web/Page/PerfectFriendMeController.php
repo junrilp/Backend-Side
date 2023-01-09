@@ -74,7 +74,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function wall(FriendRepository $friendRepository): Response
     {
@@ -114,7 +114,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function profile(): Response
     {
@@ -140,7 +140,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function myFavorites(
         Request $request,
@@ -183,7 +183,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function favoritedMe(
         Request $request,
@@ -224,7 +224,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function myFriends(
         Request $request,
@@ -269,7 +269,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function friendRequests(
         Request $request,
@@ -314,7 +314,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sentRequests(
         Request $request,
@@ -358,7 +358,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function events(): Response
     {
@@ -387,7 +387,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function attendingEvents(): Response
     {
@@ -417,7 +417,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function pastEvents(): Response
     {
@@ -467,7 +467,7 @@ class PerfectFriendMeController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function qrCode(): Response
     {

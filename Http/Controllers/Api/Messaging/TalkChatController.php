@@ -29,7 +29,7 @@ class TalkChatController extends Controller
      * Send message
      *
      * @return $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function send(ChatRequest $request, Conversation $conversation)
     {
@@ -110,7 +110,7 @@ class TalkChatController extends Controller
     /**
      * Get conversation
      *
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Conversation $conversation)
     {
@@ -127,7 +127,7 @@ class TalkChatController extends Controller
 
     /**
      * Get the previous or history of chat messages for the talk chats
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function chats(Conversation $conversation)
     {

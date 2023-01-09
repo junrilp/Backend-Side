@@ -20,7 +20,7 @@ class NotificationController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
 
     public function index()
@@ -34,7 +34,7 @@ class NotificationController extends Controller
 
     /**
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unreadNotifications()
     {
@@ -49,7 +49,7 @@ class NotificationController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function markAsRead(Request $request)
     {
@@ -66,7 +66,7 @@ class NotificationController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function markAsReadByType(Request $request)
     {
@@ -79,7 +79,7 @@ class NotificationController extends Controller
 
     /**
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function markAllAsRead()
     {
@@ -95,7 +95,7 @@ class NotificationController extends Controller
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Notification $notification)
     {
@@ -108,7 +108,7 @@ class NotificationController extends Controller
 
     /**
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function countUnread()
     {
@@ -129,7 +129,7 @@ class NotificationController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function countUnreadByType(Request $request)
     {
@@ -143,7 +143,7 @@ class NotificationController extends Controller
      * Compose the lists of notifications to show
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function listOfNotifications()
     {
@@ -281,7 +281,7 @@ class NotificationController extends Controller
      * Query for the messages notification, it will only get the message by group
      *
      * @return
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getMessagesNotification() {
 
@@ -318,7 +318,7 @@ class NotificationController extends Controller
      * @param String $type
      *
      * @return
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getNotificationByType(String $type) {
         return authUser()
@@ -344,7 +344,7 @@ class NotificationController extends Controller
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function destroy()
     {

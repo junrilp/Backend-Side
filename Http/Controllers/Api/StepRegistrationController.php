@@ -160,7 +160,7 @@ class StepRegistrationController extends Controller
     /**
     * publish profile
     * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-    * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+    * @author Junril Pateño <junril090693@gmail.com>
     */
     public function publishProfile()
     {

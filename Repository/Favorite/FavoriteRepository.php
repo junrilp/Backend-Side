@@ -13,7 +13,7 @@ class FavoriteRepository implements FavoriteInterface
      * @param mixed $userId
      *
      * @return Model User->favoritedMe
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function favoritedMe($userId, $idOnly = false) {
 
@@ -35,7 +35,7 @@ class FavoriteRepository implements FavoriteInterface
      * @param mixed $userId
      *
      * @return Model User->myFavorites
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function myFavorites($userId,  $idOnly = false)
     {

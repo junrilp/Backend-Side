@@ -31,7 +31,7 @@ class ConnectionController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getBirthdayCelebrants(ConnectionRequest $request)
     {
@@ -54,7 +54,7 @@ class ConnectionController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getEventConnection(Request $request)
     {
@@ -68,7 +68,7 @@ class ConnectionController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getGroupConnection(Request $request)
     {

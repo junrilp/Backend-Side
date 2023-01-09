@@ -13,7 +13,7 @@ class ProfileRepository implements ProfileInterface
      * @param mixed $user
      *
      * @return mixed $user
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getProfile($userProfile){
 
@@ -29,7 +29,7 @@ class ProfileRepository implements ProfileInterface
      * @param mixed $requestArray
      *
      * @return 0
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function updateProfile($userId, $requestArray){
 

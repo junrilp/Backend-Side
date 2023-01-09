@@ -29,7 +29,7 @@ class CustomGroupChatController extends Controller
      * Send a new message to the custom group chat
      *
      * @return $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function send(Request $request, Conversation $conversation)
     {
@@ -114,7 +114,7 @@ class CustomGroupChatController extends Controller
     /**
      * Get conversation
      *
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Conversation $conversation)
     {
@@ -131,7 +131,7 @@ class CustomGroupChatController extends Controller
 
     /**
      * Get the previous or history of chat messages for the custom group chats
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function chats(Conversation $conversation)
     {
@@ -167,7 +167,7 @@ class CustomGroupChatController extends Controller
 
     /**
      * Show member lists
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function members(Request $request, Conversation $conversation){
         $users = $conversation->customGroup->members()->paginate(7);

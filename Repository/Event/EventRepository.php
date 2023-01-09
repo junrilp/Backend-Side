@@ -269,7 +269,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return null
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function sendEmailNotificationToAttendeesOf(Event $event)
     {
@@ -533,7 +533,7 @@ class EventRepository implements EventInterface
      * @param mixed $eventId
      *
      * @var mixed $query
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function getAttendeesInUserModel(array $arrayIdsFromElasticSearch, array $arrayIds, int $eventId)
     {
@@ -556,7 +556,7 @@ class EventRepository implements EventInterface
      * @param int $userId
      *
      * @var mixed $arrayIds
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function generateArrayOfIdsForSearch(Builder $userEvent, ?int $userId)
     {
@@ -583,7 +583,7 @@ class EventRepository implements EventInterface
      * @param mixed $userEvent
      *
      * @param mixed $userEvent
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function filterByRSVPStatus(?int $eventRSVPStatus, Builder $userEvent)
     {
@@ -604,7 +604,7 @@ class EventRepository implements EventInterface
      * @param mixed $event
      *
      * @param mixed $userEvent
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function checkInFilter(array $filterEventInvite, Builder $userEvent, Event $event)
     {
@@ -936,7 +936,7 @@ class EventRepository implements EventInterface
 
         /**
          * Send a notification to user that he's been invited as VIP
-         * @author Angelito Tan
+         * @author Junril Pateño <junril090693@gmail.com>
          */
         if ($userEvent->is_vip) {
             Notification::send(
@@ -971,7 +971,7 @@ class EventRepository implements EventInterface
 
         /**
          * Send a notification to user that he's been remove from the VIP lists
-         * @author Angelito Tan
+         * @author Junril Pateño <junril090693@gmail.com>
          */
         Notification::send(
             $userEvent->user,
@@ -1061,7 +1061,7 @@ class EventRepository implements EventInterface
      *
      * @return void
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function setAsAttended(User $user, Event $event)
     {
@@ -1119,7 +1119,7 @@ class EventRepository implements EventInterface
      * @param int $userId
      *
      * @return [type]
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unpublish(Event $event, array $request, int $userId)
     {
@@ -1170,7 +1170,7 @@ class EventRepository implements EventInterface
      *
      * @return Event
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function sendThanksToAttendeesOf(Event $event): Event
     {
@@ -1195,7 +1195,7 @@ class EventRepository implements EventInterface
 
     /**
      * Set member as flagged
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function setFlagged(String $type, int $eventId, int $userId, int $media_id = null, String $reason = null)
     {
@@ -1243,7 +1243,7 @@ class EventRepository implements EventInterface
 
     /**
      * Set member as flagged
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function unsetFlagged(String $type, int $eventId, int $userId)
     {
@@ -1269,7 +1269,7 @@ class EventRepository implements EventInterface
      * @param int $userId
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function createNameLocation(array $request, int $userId)
     {
@@ -1312,7 +1312,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateNameLocation(array $request, Event $event)
     {
@@ -1344,7 +1344,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateTypeCategory(array $request, Event $event)
     {
@@ -1365,7 +1365,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateDescription(array $request, Event $event) {
         $event->update(
@@ -1383,7 +1383,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateMediaSetting(array $request, Event $event) {
         $event->update(
@@ -1402,7 +1402,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateRolesResponsibilities(array $request, Event $event, int $userId) {
         RoleRepository::assignUserRole($request['roles'], $event, $userId);
@@ -1416,7 +1416,7 @@ class EventRepository implements EventInterface
      * @param Event $event
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateDateTime(array $request, Event $event){
         $event->update(
@@ -1438,7 +1438,7 @@ class EventRepository implements EventInterface
      * @param int $userId
      *
      * @return Event
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getEvent(int $eventId, int $userId) {
         return Event::where('id', $eventId)

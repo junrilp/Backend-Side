@@ -12,7 +12,7 @@ class InterestRepository implements InterestInterface
      * @param mixed $interestName
      *
      * @return @var mixed $interest
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function store($interestName){
 

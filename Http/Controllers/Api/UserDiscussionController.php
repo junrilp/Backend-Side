@@ -381,7 +381,7 @@ class UserDiscussionController extends Controller
      *
      * @return JsonResponse
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function likeResponseFor (UserDiscussion $post): JsonResponse
     {

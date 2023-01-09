@@ -48,7 +48,7 @@ class UserBasicInfoResource extends JsonResource
     /**
      * @return string|null
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function getModifiedMediaUrl(): ?string
     {

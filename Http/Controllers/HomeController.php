@@ -31,7 +31,7 @@ class HomeController extends Controller
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(Request $request, FriendRepository $friendRepository, ConnectionRepository $connectionRepository, InterestController $interestController): Response
     {
@@ -59,7 +59,7 @@ class HomeController extends Controller
      * Show About Us Page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function aboutUs(){
 
@@ -77,7 +77,7 @@ class HomeController extends Controller
      * Show Go Premium Page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function goPremium(){
         return Inertia::render('GoPremium', ['title' => '- Go Premium']);
@@ -87,7 +87,7 @@ class HomeController extends Controller
      * Show FAQs page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function faqs(){
         return Inertia::render('Faqs', ['title' => '- FAQs']);
@@ -97,7 +97,7 @@ class HomeController extends Controller
      * Show Conctact Us Page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function contactUs(){
         return Inertia::render('ContactUs', ['title' => '- Contact Us']);
@@ -107,7 +107,7 @@ class HomeController extends Controller
      * Show Terms Page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function terms(){
         return Inertia::render('Terms', ['title' => '- Terms and Conditions']);
@@ -117,7 +117,7 @@ class HomeController extends Controller
      * Show Privacy Policy Page
      *
      * @return  \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function privacyPolicy(){
         return Inertia::render('PrivacyPolicy', ['title' => '- Privacy Policy']);
@@ -127,7 +127,7 @@ class HomeController extends Controller
      * Show the account suspended page
      * Suspension text message
      * @return \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function accountSuspended(){
         return Inertia::render('AccountSuspended', ['title' => '- Account Suspended']);

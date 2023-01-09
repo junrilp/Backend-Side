@@ -16,7 +16,7 @@ class UserInterestController extends Controller
      * @param StoreInterestRequest $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function store(StoreInterestRequest $request)
     {

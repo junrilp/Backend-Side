@@ -114,7 +114,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function wall(FriendRepository $friendRepository, string $username): Response
     {
@@ -160,7 +160,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function profile(string $username): Response
     {
@@ -190,7 +190,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function friends(
         Request $request,
@@ -228,7 +228,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function events(string $username): Response
     {
@@ -262,7 +262,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function attendingEvents(string $username): Response
     {
@@ -296,7 +296,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function qrCode(string $username): Response
     {
@@ -315,7 +315,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @param string $username
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function favorites(string $username): Response {
         $user = User::where('user_name', '=', $username)
@@ -346,7 +346,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      *
      * @param string $username
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function favoritedMe(string $username) {
 
@@ -376,7 +376,7 @@ class PerfectFriendVisitorController extends PerfectFriendController
      * @param Request $request
      * @param string $username
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function groups(Request $request, string $username): Response {
         $user = User::where('user_name', '=', $username)

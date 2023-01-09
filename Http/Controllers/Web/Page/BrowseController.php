@@ -35,7 +35,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(Request $request)
     {
@@ -50,7 +50,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function indexGuest(Request $request)
     {
@@ -69,7 +69,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function indexAuth(Request $request)
     {
@@ -152,7 +152,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function newestMembers(Request $request)
     {
@@ -180,7 +180,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function recentlyActive(Request $request)
     {
@@ -208,7 +208,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function matches(Request $request)
     {
@@ -236,7 +236,7 @@ class BrowseController extends Controller
      * @param Request $request
      *
      * @return \Inertia\Response
-     * @author Richmond De Silva <richmond.ds@ragingrivetict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function allMembers(Request $request)
     {

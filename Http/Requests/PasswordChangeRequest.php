@@ -7,7 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 /**
  * Request validation for email
  *
- * @author Angelito Tan <angelito.t@ragingriverict.com>
+ * @author Junril Pateño <junril090693@gmail.com>
  */
 class PasswordChangeRequest extends FormRequest
 {
@@ -15,7 +15,7 @@ class PasswordChangeRequest extends FormRequest
      * Determine if the user is authorized to make this request.
      *
      * @return bool
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function authorize()
     {
@@ -26,7 +26,7 @@ class PasswordChangeRequest extends FormRequest
      * Get the validation rules that apply to the request.
      *
      * @return array
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function rules()
     {
@@ -38,7 +38,7 @@ class PasswordChangeRequest extends FormRequest
     /**
      * Get the validation messages that apply to the rules.
      * @return array
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function messages()
     {

@@ -80,7 +80,7 @@ class GroupResource extends JsonResource
     /**
      * @return string|null
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function getMediaUrl(): ?string
     {
@@ -91,7 +91,7 @@ class GroupResource extends JsonResource
     /**
      * @return string|null
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     // @TODO remove this after SPRINT-202
     private function getModifiedMediaUrl(): ?string

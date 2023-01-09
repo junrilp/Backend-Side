@@ -28,7 +28,7 @@ class InfluencerController extends Controller
      * Get top influencer
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getTopInfluencer() {
 
@@ -49,7 +49,7 @@ class InfluencerController extends Controller
      * Automatically call the function base on the url parameter name
      *
      * @return function
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function addSearchQueries(){
         foreach($this->request->query as $name => $value){
@@ -63,7 +63,7 @@ class InfluencerController extends Controller
      * Will check if default limit need to override
      *
      * @return collection
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function withLimit($value){
         $this->influencer->limit($value);
@@ -74,7 +74,7 @@ class InfluencerController extends Controller
      * Include the interests - interest eloquent relationship
      *
      * @return collection
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function withInterest(){
         $this->influencer->with('interests');

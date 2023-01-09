@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Log;
  * QrCodeRepository
  * Set of static methods to generate QR Code and consume it by a given model
  *
- * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+ * @author Junril Pateño <junril090693@gmail.com>
  */
 class QrCodeRepository implements QrCodeInterface
 {
@@ -31,7 +31,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function generateQrCodeOn(QrCodeModelInterface $qrCodeModel, string $qrCodeString = null): string
     {
@@ -78,7 +78,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private static function getFilename(string $qrCode): string
     {
@@ -90,7 +90,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getQrCodePath(string $qrCode): string
     {
@@ -102,7 +102,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getQrCodeUrl(string $qrCode): string
     {
@@ -114,7 +114,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return array
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getQrCodeJson(string $qrCode): array
     {
@@ -126,7 +126,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getQrCodeRedirectLink(string $qrCode): string
     {
@@ -138,7 +138,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return QrCodeModelInterface
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private static function getQrCodeModel(string $qrCode): QrCodeModelInterface
     {
@@ -199,7 +199,7 @@ class QrCodeRepository implements QrCodeInterface
      *
      * @return string
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function generateUniqueCode(QrCodeModelInterface $qrCodeModel): string
     {

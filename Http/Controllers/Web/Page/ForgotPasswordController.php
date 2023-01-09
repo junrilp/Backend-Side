@@ -12,7 +12,7 @@ class ForgotPasswordController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index()
     {

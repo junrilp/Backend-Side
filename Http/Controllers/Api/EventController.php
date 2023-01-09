@@ -438,7 +438,7 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function setAsAttended(Request $request)
     {
@@ -490,7 +490,7 @@ class EventController extends Controller
      *
      * @return JsonResponse
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendThankYou(Event $event): JsonResponse
     {
@@ -518,7 +518,7 @@ class EventController extends Controller
      *
      * @param $request
      * @return JsonResponse
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function setFlagged(Request $request)
     {
@@ -536,7 +536,7 @@ class EventController extends Controller
      *
      * @param $request
      * @return JsonResponse
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unsetFlagged(Request $request){
         try {
@@ -554,7 +554,7 @@ class EventController extends Controller
      *
      * @param $request
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function createNameLocation(EventNameLocationRequest $request) {
         try {
@@ -575,7 +575,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateNameLocation(EventNameLocationRequest $request, Event $event) {
         try {
@@ -595,7 +595,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateTypeCategory(TypeCategoryInterestRequest $request, Event $event) {
         try {
@@ -615,7 +615,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateDescription(EventDescriptionRequest $request, Event $event){
         try {
@@ -636,7 +636,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateMediaSetting(EventMediaRequest $request, Event $event){
         try {
@@ -656,7 +656,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateRolesResponsibilities(EventRolesRequest $request, Event $event){
         try {
@@ -677,7 +677,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateDateTime(EventDateTimeRequest $request, Event $event){
         try {
@@ -697,7 +697,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function preview(Request $request, Event $event){
         try {
@@ -741,7 +741,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function invitePastEvents(Request $request, Event $event){
         try {
@@ -761,7 +761,7 @@ class EventController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function inviteFriends(Request $request, Event $event){
         try {
@@ -800,7 +800,7 @@ class EventController extends Controller
      * @param int $eventId
      *
      * @return EventStepsResource
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getStep(Request $request)
     {

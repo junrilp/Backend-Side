@@ -54,7 +54,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(Request $request)
     {
@@ -68,7 +68,7 @@ class AdminController extends Controller
      * @param mixed $id
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show($id)
     {
@@ -82,7 +82,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function setRole(Request $request)
     {
@@ -211,7 +211,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unsetRole(Request $request)
     {
@@ -233,7 +233,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function setPassword(Request $request)
     {
@@ -284,7 +284,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return Response
-     * @author Robert Edward Hughes Jr. <robert.h@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function adminVerifyOtp(Request $request)
     {
@@ -331,7 +331,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      * @author Robert Edward Hughes Jr <robert.h@ragingriverict.com>
      */
     public function adminPanelLogin(Request $request)
@@ -380,7 +380,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function adminLogout(Request $request)
     {
@@ -396,7 +396,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @return
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function suspendUserAccount(Request $request)
     {

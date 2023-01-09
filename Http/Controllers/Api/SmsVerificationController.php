@@ -25,7 +25,7 @@ class SmsVerificationController extends Controller
      * Send an SMS PIN Code verification to user
      *
      * @param SmsPhoneVerification
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendPhoneSMSVerification(SmsPhoneVerification $request)
     {
@@ -40,7 +40,7 @@ class SmsVerificationController extends Controller
      *
      * @param Request
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function verifyPinCode(SMSPinVerification $request)
     {

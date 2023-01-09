@@ -21,7 +21,7 @@ class FavoriteController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function store(FavoriteRequest $request)
     {
@@ -45,7 +45,7 @@ class FavoriteController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getFavoritedMe(Request $request)
     {
@@ -69,7 +69,7 @@ class FavoriteController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getMyFavorites(Request $request)
     {

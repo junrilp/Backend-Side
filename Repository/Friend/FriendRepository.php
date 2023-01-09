@@ -17,7 +17,7 @@ class FriendRepository implements FriendInterface
      * @param int|null $status
      *
      * @var mixed $friend
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function findFriend( int $userId, int $userId2, int $status = null ) {
 
@@ -44,7 +44,7 @@ class FriendRepository implements FriendInterface
      * @param int|null $userId2
      *
      * @var mixed $friend
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function requestFriend(int $userId, int $userId2 = null)
     {
@@ -78,7 +78,7 @@ class FriendRepository implements FriendInterface
      * @param int $perPage=12
      *
      * @return [type]
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function getFriends(int $userId, string $status = null, int $perPage=12, $idOnly = false, $hasLimit = false)
     {

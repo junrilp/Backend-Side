@@ -27,7 +27,7 @@ class SmsRepository implements SmsInterface
      * Send an SMS PIN Code verification to user
      *
      * @param String $mobileNumber
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendPhoneSMSVerification(String $mobileNumber, String $ipAddress)
     {
@@ -45,7 +45,7 @@ class SmsRepository implements SmsInterface
      * For verification of the code in the database
      *
      * @return $this
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function generatePinCode()
     {
@@ -59,7 +59,7 @@ class SmsRepository implements SmsInterface
      * Will check if there's already a record if not it will insert a new record
      *
      * @return $this
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function findOrCreateSMSRecord()
     {
@@ -109,7 +109,7 @@ class SmsRepository implements SmsInterface
      * Send an SMS Pin code
      *
      * @return $this
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendSMSPinCode()
     {
@@ -137,7 +137,7 @@ class SmsRepository implements SmsInterface
      * It will update pin and status of the pin code
      *
      * @return $this
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function updateSMSRecord()
     {
@@ -154,7 +154,7 @@ class SmsRepository implements SmsInterface
      * @param String $mobileNumber
      * @param String $pinCode
      * @return mixed
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function verifyPinCode(String $mobileNumber, String $pinCode)
     {
@@ -180,7 +180,7 @@ class SmsRepository implements SmsInterface
      * Send a message text
      *
      * @return $this
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function sendSMSText(string $mobileNumber, string $message)
     {

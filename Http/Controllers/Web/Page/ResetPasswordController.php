@@ -15,7 +15,7 @@ use Session;
  * Reset password controller
  * This will validation the data and token hash
  *
- * @author Angelito Tan <angelito.t@ragingriverict.com>
+ * @author Junril Pateño <junril090693@gmail.com>
  */
 class ResetPasswordController extends Controller
 {
@@ -25,7 +25,7 @@ class ResetPasswordController extends Controller
      * Validated email & token
      *
      * @return \Illuminate\Http\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index($encryptEmail, $token)
     {
@@ -68,7 +68,7 @@ class ResetPasswordController extends Controller
      * Check if token and reset data is null
      *
      * @return \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function isNullTokenAndReset(){
         if (is_null($this->token) || is_null($this->reset)){
@@ -81,7 +81,7 @@ class ResetPasswordController extends Controller
      * Verify the user token if changed
      *
      * @return \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function verifyTokenHash(){
         if (!Hash::check($this->token, $this->reset->token)) {
@@ -95,7 +95,7 @@ class ResetPasswordController extends Controller
      * Logged-in user data will be removed
      *
      * @return $this
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function logoutUser(){
         if (Auth::check()) {

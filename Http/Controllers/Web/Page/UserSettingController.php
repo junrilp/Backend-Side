@@ -15,7 +15,7 @@ class UserSettingController extends Controller
      * Display the user account settings page and include data with it
      *
      * @return void
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(){
         $userId = Auth::user()->id;
@@ -29,7 +29,7 @@ class UserSettingController extends Controller
      * Note: this is sample page for future changes
      *
      * @return \Inertia\Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function notification(){
         return Inertia::render('UserSetting/Notification', ['title' => '- Notification']);

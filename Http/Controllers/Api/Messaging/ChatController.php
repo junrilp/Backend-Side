@@ -400,7 +400,7 @@ class ChatController extends Controller
     /**
      * Block user from the chat
      *
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
      */
     public function blockUser(Request $request)
@@ -442,7 +442,7 @@ class ChatController extends Controller
     /**
      * Unblock user from the chat
      *
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
      */
     public function unBlockUser(Request $request)

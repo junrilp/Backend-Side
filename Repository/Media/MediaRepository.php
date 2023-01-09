@@ -202,7 +202,7 @@ class MediaRepository implements MediaInterface
      * @param string|null $fileName
      * @return Media|null
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function addMediaFromBase64(string $data, string $fileName = null): ?Media
     {

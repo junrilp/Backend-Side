@@ -46,7 +46,7 @@ class GroupController extends Controller
      * Index Page
      *
      * @return response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(): Response
     {
@@ -57,7 +57,7 @@ class GroupController extends Controller
      * Create group page
      *
      * @return Response
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function create(): Response
     {
@@ -67,7 +67,7 @@ class GroupController extends Controller
     /**
      * @return array
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function getCommonData(): array
     {
@@ -274,7 +274,7 @@ class GroupController extends Controller
      * @param Group $event
      * @return Response
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Request $request, Group $group)
     {
@@ -315,7 +315,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return Response
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function previewGroup(Request $request, Group $group): Response
     {
@@ -338,7 +338,7 @@ class GroupController extends Controller
      * @param Group $event
      * @return Response
      *
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function editGroup(Group $group): RedirectResponse
     {

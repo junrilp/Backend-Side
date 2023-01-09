@@ -22,7 +22,7 @@ class BrowseRepository implements BrowseInterface
      * @param mixed $userId
      *
      * @return array $searchFilter
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function loadUserPreference($request, $userId)
     {
@@ -75,7 +75,7 @@ class BrowseRepository implements BrowseInterface
      * @param mixed $request
      *
      * @return array $searchFilter
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function searchFilter($request)
     {
@@ -162,7 +162,7 @@ class BrowseRepository implements BrowseInterface
      * @param mixed $searchMethod=null
      *
      * @return mixed $query
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public static function elasticSearchBrowse($requestArray, $withLimit = false, int $perPage = 12, int $limit = 10, $searchMethod=null)
     {

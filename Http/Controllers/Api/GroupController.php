@@ -66,7 +66,7 @@ class GroupController extends Controller
      * @param GroupSearchRequest $request
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(Request $request)
     {
@@ -207,7 +207,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Group $group)
     {
@@ -245,7 +245,7 @@ class GroupController extends Controller
      *
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      * @throws \Illuminate\Validation\ValidationException
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userGroups(Request $request)
     {
@@ -271,7 +271,7 @@ class GroupController extends Controller
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      * @throws \Illuminate\Validation\ValidationException
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function groupFilterAndOptions(Request $request)
     {
@@ -308,7 +308,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function relatedGroups(Request $request, Group $group)
     {
@@ -328,7 +328,7 @@ class GroupController extends Controller
      * @param Group $group
      *
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function publishGroup(GroupAuthorizedRequest $request, Group $group)
     {
@@ -357,7 +357,7 @@ class GroupController extends Controller
      * @param Group $group
      *
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function groupMembers(Request $request, Group $group)
     {
@@ -383,7 +383,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getNonMembers(Request $request, Group $group)
     {
@@ -407,7 +407,7 @@ class GroupController extends Controller
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      * @throws \Illuminate\Validation\ValidationException
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function inviteMembers(GroupAuthorizedRequest $request, Group $group)
     {
@@ -464,7 +464,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function memberInvites(Request $request, Group $group)
     {
@@ -487,7 +487,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response|void
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function joinGroup(Request $request, Group $group)
     {
@@ -524,7 +524,7 @@ class GroupController extends Controller
      * @param Group $group
      * @return \Illuminate\Contracts\Routing\ResponseFactory|Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function leaveGroup(Request $request, Group $group)
     {
@@ -658,7 +658,7 @@ class GroupController extends Controller
      * @param Event $event
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function invitePastEvents(Request $request, Group $group)
     {

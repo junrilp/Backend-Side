@@ -24,7 +24,7 @@ class ProfileResource extends JsonResource
      *
      * @param  \Illuminate\Http\Request  $request
      * @return array
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function toArray($request)
     {
@@ -40,7 +40,7 @@ class ProfileResource extends JsonResource
     /**
      * Return entire model
      * @return array
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function returnAll(){
 
@@ -73,7 +73,7 @@ class ProfileResource extends JsonResource
     /**
      * return specific updated fields
      * @return array
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function returnSpecificFields(){
 
@@ -133,7 +133,7 @@ class ProfileResource extends JsonResource
      * @param null $relationship
      *
      * @return \Illuminate\Http\Resources\MergeValue|mixed
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function checkIfExist($fieldname, $fields, $relationship = null){ //merge if field isDirty
 
@@ -152,7 +152,7 @@ class ProfileResource extends JsonResource
     /**
      * @return array
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getProfileDetails(): array
     {

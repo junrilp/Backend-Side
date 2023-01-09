@@ -375,7 +375,7 @@ class ConversationController extends Controller
      * @param Conversation
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function seen(Conversation $conversation)
     {
@@ -432,7 +432,7 @@ class ConversationController extends Controller
      * @param Conversation
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unSeen(Conversation $conversation)
     {
@@ -458,7 +458,7 @@ class ConversationController extends Controller
      *
      * @param Conversation $conversation
      *
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function mute(Conversation $conversation)
     {
@@ -477,7 +477,7 @@ class ConversationController extends Controller
      * Unmute conversation
      *
      * @param  Conversation $conversation
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function unmute(Conversation $conversation)
     {
@@ -495,7 +495,7 @@ class ConversationController extends Controller
      * User Report
      *
      * @param Request $request
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function userReport(Request $request)
     {
@@ -561,7 +561,7 @@ class ConversationController extends Controller
     }
 
     /**
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function leaveConversation (Request $request){
         $userId = authUser()->id;
@@ -573,7 +573,7 @@ class ConversationController extends Controller
     }
 
     /**
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function joinConversation (Request $request){
         $userId = authUser()->id;
@@ -623,7 +623,7 @@ class ConversationController extends Controller
 
     /**
      * Get report lists
-     * @author Angelito Tan
+     * @author Junril Pateño <junril090693@gmail.com>
      */
 
     public function reportLists(){

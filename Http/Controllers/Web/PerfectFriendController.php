@@ -45,7 +45,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setWallNavLink($link)
     {
@@ -56,7 +56,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setProfileNavLink($link)
     {
@@ -67,7 +67,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setEventsNavLink($link)
     {
@@ -98,7 +98,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setFavoritesNavLink($link)
     {
@@ -109,7 +109,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setFavoritesMyFavoritesNavLink($link)
     {
@@ -120,7 +120,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setFavoritesFavoritedMeNavLink($link)
     {
@@ -131,7 +131,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setFriendsNavLink($link)
     {
@@ -157,7 +157,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setGroupsNavLink($link)
     {
@@ -168,7 +168,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setGroupsMyGroupsNavLink($link){
         $this->baseResponseData['navLinks']['groups_myGroups'] = $this->baseResponseData['navLinkBase'] . $link;
@@ -178,7 +178,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setGroupsMyAllGroupsNavLink($link){
         $this->baseResponseData['navLinks']['groups_myAllGroups'] = $this->baseResponseData['navLinkBase'] . $link;
@@ -188,7 +188,7 @@ class PerfectFriendController extends Controller
      * @param Request $request
      *
      * @return \Illuminate\Support\Collection $baseResponseData
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     protected function setGroupsMyGroupsPendingInvintesNavLink($link){
         $this->baseResponseData['navLinks']['groups_myGroupsPendingInvites'] = $this->baseResponseData['navLinkBase'] . $link;

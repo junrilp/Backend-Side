@@ -77,7 +77,7 @@ class InterestController extends Controller
      * @param StoreInterestRequest $request
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Mark Anthony Tableza <mark.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function store(StoreInterestRequest $request)
     {
@@ -230,7 +230,7 @@ class InterestController extends Controller
      * Will get featured interests to be display
      *
      * @return \Illuminate\Http\Response|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getFeaturedInterests(){
         $data = Interest::where('is_featured',1)->get();
@@ -241,7 +241,7 @@ class InterestController extends Controller
      * Get all users that has same interest
      *
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse|\Illuminate\Contracts\Routing\ResponseFactory
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getUserWithSameInterest(Request $request, int $interestId = 0) {
         $perPage = $request->perPage ?? 10;
@@ -253,7 +253,7 @@ class InterestController extends Controller
 
     /*
      * Get all media uploaded by all users and match it via interest
-     * @author Angelito Tan <angelito.t@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function getAllMediaByInterest(Request $request) {
         $userInterest = authUser()->interests->pluck('id'); // Get user all interest

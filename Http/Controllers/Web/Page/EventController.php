@@ -39,7 +39,7 @@ class EventController extends Controller
 {
     /**
      * Index page
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function index(): Response
     {
@@ -54,7 +54,7 @@ class EventController extends Controller
      * Create event page
      *
      * @return Response
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function create(Request $request): Response
     {
@@ -72,7 +72,7 @@ class EventController extends Controller
     /**
      * @return array
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     private function getCommonData(): array
     {
@@ -194,7 +194,7 @@ class EventController extends Controller
      * @param Event $event
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function show(Request $request, Event $event): Response
     {
@@ -319,7 +319,7 @@ class EventController extends Controller
      * @param Event $event
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function previewEvent(Event $event): Response
     {
@@ -339,7 +339,7 @@ class EventController extends Controller
      * @param Event $event
      * @return Response
      *
-     * @author Jay Aries Flores <aries@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function editEvent(EditEventRequest $request, Event $event): RedirectResponse
     {
@@ -501,7 +501,7 @@ class EventController extends Controller
      *
      * @return Response
      *
-     * @author Richmond De Silva <richmond.ds@ragingriverict.com>
+     * @author Junril Pateño <junril090693@gmail.com>
      */
     public function ticketConfirmation(string $qrCode): Response
     {
